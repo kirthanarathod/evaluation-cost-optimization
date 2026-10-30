@@ -1,0 +1,14 @@
+seed | frozen config | dev avoided / FA | test avoided / FA | test failures missed
+   1 | any/10/always_defer | 25.0% / 3 | 21.0% / 2 | 1.0%
+   2 | any/10/defer_if_label | 47.2% / 2 | 49.2% / 3 | 1.7%
+   3 | nearest/10/defer_if_label | 44.8% / 3 | 44.5% / 1 | 0.5%
+   4 | any/10/defer_if_label | 46.0% / 4 | 43.2% / 5 | 2.6%
+   5 | any/10/defer_if_label | 43.8% / 4 | 46.5% / 2 | 1.1%
+   6 | any/10/defer_if_label | 44.5% / 2 | 44.2% / 4 | 1.9%
+   7 | any/20/defer_if_label | 43.8% / 3 | 49.0% / 5 | 2.8%
+   8 | any/20/defer_if_label | 45.2% / 3 | 43.2% / 1 | 0.5%
+   9 | nearest/10/defer_if_label | 43.8% / 3 | 45.5% / 1 | 0.5%
+  10 | any/20/defer_if_label | 48.8% / 4 | 45.5% / 7 | 3.7%
+
+test avoided: mean 43.2%, range 21.0%-49.2%
+test failures missed: mean 1.6%, range 0.5%-3.7%

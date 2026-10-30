@@ -1,0 +1,29 @@
+{
+  "config": {
+    "mode": "any",
+    "window": 20,
+    "empty_optional": "defer_if_label"
+  },
+  "fa_budget": 0.01,
+  "budget_met_on_dev": true,
+  "dev_metrics": {
+    "n": 400,
+    "failures": 191,
+    "accepted": 175,
+    "evaluations_avoided": 0.4375,
+    "false_accepts": 3,
+    "false_accept_rate_of_all": 0.0075,
+    "false_accept_rate_of_all_ci95": [
+      0.0025538429629852373,
+      0.02181610802770022
+    ],
+    "failures_missed_rate": 0.015706806282722512,
+    "failures_missed_rate_ci95": [
+      0.0053557651415026,
+      0.045155008738408046
+    ],
+    "accept_precision": 0.9828571428571429,
+    "net_eval_units_saved": 171.0,
+    "break_even_cost_per_false_accept": 57.0
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "accept_all": {
+    "n": 400,
+    "failures": 179,
+    "accepted": 400,
+    "evaluations_avoided": 1.0,
+    "false_accepts": 179,
+    "false_accept_rate_of_all": 0.4475,
+    "false_accept_rate_of_all_ci95": [
+      0.39950002860195316,
+      0.4964987986610134
+    ],
+    "failures_missed_rate": 1.0,
+    "failures_missed_rate_ci95": [
+      0.9789894641044491,
+      1.0
+    ],
+    "accept_precision": 0.5525,
+    "net_eval_units_saved": 396.0,
+    "break_even_cost_per_false_accept": 2.212290502793296,
+    "by_error_type": {
+      "correct_filled_optional": {
+        "n": 121,
+        "accepted": 121,
+        "deferred": 0
+      },
+      "wrong_distractor": {
+        "n": 54,
+        "accepted": 54,
+        "deferred": 0
+      },
+      "correct_empty_optional": {
+        "n": 100,
+        "accepted": 100,
+        "deferred": 0
+      },
+      "missing_optional": {
+        "n": 11,
+        "accepted": 11,
+        "deferred": 0
+      },
+      "wrong_ungrounded": {
+        "n": 63,
+        "accepted": 63,
+        "deferred": 0
+      },
+      "missing_required": {
+        "n": 38,
+        "accepted": 38,
+        "deferred": 0
+      },
+      "spurious_optional": {
+        "n": 13,
+        "accepted": 13,
+        "deferred": 0
+      }
+    },
+    "by_layout": {
+      "compact": {
+        "n": 74,
+        "accepted": 74,
+        "false_accepts": 38
+      },
+      "email": {
+        "n": 122,
+        "accepted": 122,
+        "false_accepts": 52
+      },
+      "form": {
+        "n": 204,
+        "accepted": 204,
+        "false_accepts": 89
+      }
+    }
+  },
+  "required_present": {
+    "n": 400,
+    "failures": 179,
+    "accepted": 362,
+    "evaluations_avoided": 0.905,
+    "false_accepts": 141,
+    "false_accept_rate_of_all": 0.3525,
+    "false_accept_rate_of_all_ci95": [
+      0.3072858484474132,
+      0.4005203805294925
+    ],
+    "failures_missed_rate": 0.7877094972067039,
+    "failures_missed_rate_ci95": [
+      0.722082764034753,
+      0.84124636894155
+    ],
+    "accept_precision": 0.6104972375690608,
+    "net_eval_units_saved": 358.0,
+    "break_even_cost_per_false_accept": 2.5390070921985815,
+    "by_error_type": {
+      "correct_filled_optional": {
+        "n": 121,
+        "accepted": 121,
+        "deferred": 0
+      },
+      "wrong_distractor": {
+        "n": 54,
+        "accepted": 54,
+        "deferred": 0
+      },
+      "correct_empty_optional": {
+        "n": 100,
+        "accepted": 100,
+        "deferred": 0
+      },
+      "missing_optional": {
+        "n": 11,
+        "accepted": 11,
+        "deferred": 0
+      },
+      "wrong_ungrounded": {
+        "n": 63,
+        "accepted": 63,
+        "deferred": 0
+      },
+      "missing_required": {
+        "n": 38,
+        "accepted": 0,
+        "deferred": 38
+      },
+      "spurious_optional": {
+        "n": 13,
+        "accepted": 13,
+        "deferred": 0
+      }
+    },
+    "by_layout": {
+      "compact": {
+        "n": 74,
+        "accepted": 64,
+        "false_accepts": 28
+      },
+      "email": {
+        "n": 122,
+        "accepted": 112,
+        "false_accepts": 42
+      },
+      "form": {
+        "n": 204,
+        "accepted": 186,
+        "false_accepts": 71
+      }
+    }
+  },
+  "grounded_label_screen": {
+    "n": 400,
+    "failures": 179,
+    "accepted": 196,
+    "evaluations_avoided": 0.49,
+    "false_accepts": 5,
+    "false_accept_rate_of_all": 0.0125,
+    "false_accept_rate_of_all_ci95": [
+      0.005350671853550634,
+      0.02892415273113802
+    ],
+    "failures_missed_rate": 0.027932960893854747,
+    "failures_missed_rate_ci95": [
+      0.011988873582240142,
+      0.06371381114596174
+    ],
+    "accept_precision": 0.9744897959183674,
+    "net_eval_units_saved": 192.0,
+    "break_even_cost_per_false_accept": 38.4,
+    "by_error_type": {
+      "correct_filled_optional": {
+        "n": 121,
+        "accepted": 101,
+        "deferred": 20
+      },
+      "wrong_distractor": {
+        "n": 54,
+        "accepted": 5,
+        "deferred": 49
+      },
+      "correct_empty_optional": {
+        "n": 100,
+        "accepted": 90,
+        "deferred": 10
+      },
+      "missing_optional": {
+        "n": 11,
+        "accepted": 0,
+        "deferred": 11
+      },
+      "wrong_ungrounded": {
+        "n": 63,
+        "accepted": 0,
+        "deferred": 63
+      },
+      "missing_required": {
+        "n": 38,
+        "accepted": 0,
+        "deferred": 38
+      },
+      "spurious_optional": {
+        "n": 13,
+        "accepted": 0,
+        "deferred": 13
+      }
+    },
+    "by_layout": {
+      "compact": {
+        "n": 74,
+        "accepted": 29,
+        "false_accepts": 0
+      },
+      "email": {
+        "n": 122,
+        "accepted": 60,
+        "false_accepts": 1
+      },
+      "form": {
+        "n": 204,
+        "accepted": 107,
+        "false_accepts": 4
+      }
+    }
+  }
+}
